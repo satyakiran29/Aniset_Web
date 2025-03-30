@@ -1,55 +1,137 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #3b82f6, #60a5fa);
-    color: white;
-  }
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: white;
+}
+
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}.navbar-brand {
+  font-family: "Pacifico" !important;
+  font-size: 2.5em !important;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-right: 8px;
+}
+
+.plstore {
+  background-color: #34b7f1; /* Customize for Playstore */
+}
+
+.gallery {
+  background-color: #4caf50; /* Customize for Gallery */
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-green, .btn-blue {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-green {
+  background-color: #22c55e;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #2563eb;
+  color: white;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  transform: rotate(5deg); /* Less rotation for better visuals */
+}
+
+/* 📌 Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
   }
-  
+
   .hero-text {
-    max-width: 50%;
-    text-align: left;
+    max-width: 100%;
   }
-  
-  .hero-text h1 {
-    font-size: 3rem;
-  }
-  
-  .hero-text p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-  }
-  
+
   .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
     margin-top: 20px;
   }
-  
-  .btn-green, .btn-blue {
-    padding: 10px 20px;
-    margin-right: 10px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .btn-green {
-    background-color: #22c55e;
-    color: white;
-  }
-  
-  .btn-blue {
-    background-color: #2563eb;
-    color: white;
-  }
-  
+
   .hero-image img {
-    max-width: 300px;
-    transform: rotate(10deg);
+    max-width: 250px;
+    transform: rotate(0deg); /* Remove rotation on smaller screens */
   }
-  
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .btn-green, .btn-blue {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}

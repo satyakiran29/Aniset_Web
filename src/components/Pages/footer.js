@@ -28,7 +28,7 @@ const Footer = () => {
                     </a>
                 </div>
             </section>
-            <p>&copy; {new Date().getFullYear()} AniSet | Developed by <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">Satyakiran(skdev)</a></p>
+            <p>&copy; {new Date().getFullYear()} AniSet | Developed by <a href="https://satyakiran.vercel.app/bio" target="_blank" rel="noopener noreferrer">Satyakiran(skdev)</a></p>
             <p>All rights reserved.</p>
             <div className="footer-links">
                 <a href="/privacypolicy">Privacy Policy</a>

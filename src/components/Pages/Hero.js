@@ -21,7 +21,7 @@ const Hero = () => {
             <FaDownload className="social-icon" /> Download
           </a>
           <a 
-            href="/gallery" 
+            href="/ScreenShots" 
             className="social-btn gallery" 
             target="_blank" 
             rel="noopener noreferrer" 

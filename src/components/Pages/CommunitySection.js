@@ -38,7 +38,7 @@ const CommunitySection = () => {
 
   return (
     <>
-      
+        <section id="testimonials" >
       <center>
         <h1>Testimonies</h1>
         <p>Here's what people are saying about Aniset App.</p>
@@ -48,6 +48,8 @@ const CommunitySection = () => {
           <TestimonyCard key={index} {...testimony} />
         ))}
       </div>
+</section>
+
       <section id="community">
         <div className="community-section">
           <div className="community-content">

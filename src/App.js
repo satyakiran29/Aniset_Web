@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { RingLoader } from 'react-spinners';  // Importing HashLoader
 import { Analytics } from '@vercel/analytics/react';
@@ -49,7 +49,7 @@ const App = () => {
                   <Community />
                 </>
               } />
-              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/ScreenShots" element={<Gallery />} />
               <Route path='/privacypolicy' element={<PrivacyPolicy />} />
             </Routes>
             <Footer />

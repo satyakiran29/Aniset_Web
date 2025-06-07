@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../nav/Navbar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
@@ -11,35 +11,35 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="navbar-logo">
+          <NavLink to="/" className="navbar-logo">
             <img src={logo} alt="Logo" className="logo-img"  />
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
+              <a
+                href="#pricing"
                 className="nav-links"
-                onClick={handleClick}
               >
-              Pricing
-
-              </NavLink>
+                Pricing
+              </a>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
+          <li className="nav-item">
+              <a
+                href="#testimonials"
                 className="nav-links"
-                onClick={handleClick}
               >
-                
-              </NavLink>
+                Testimonials
+              </a>
             </li>
-        
+             <li className="nav-item">
+              <a
+                href="#community"
+                className="nav-links"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             {click ? (

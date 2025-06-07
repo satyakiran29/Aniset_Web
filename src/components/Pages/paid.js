@@ -24,7 +24,7 @@ const PaidSection = () => {
             <li>- Wallpaper Section</li>
           </ul>
           <a  href="https://play.google.com/store/apps/details?id=com.skdev.aniset" target="_blank">
-          <button type="button" className="btn btn-lg btn-block btn-outline-success">Buy</button>
+          <button type="button" className="btn btn-lg btn-block btn-outline-success"  >Buy</button>
         </a>
         </div>
       </div>

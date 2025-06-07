@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { RingLoader } from 'react-spinners';  // Importing HashLoader
 import { Analytics } from '@vercel/analytics/react';
-import Navbar from './components/Pages/Navbar';
+import Navbar from './components/Pages/nav/Navbar';
 import Footer from './components/Pages/footer';
 import Hero from './components/Pages/Hero';
 import StatsSection from './components/Pages/stats';

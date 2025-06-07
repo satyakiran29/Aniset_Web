@@ -63,16 +63,17 @@
 
 /* Buy Button */
 .btn-outline-success {
-  color: #ffffff; /* White text */
-  background-color: #28a745; /* Green background */
-  border-color: #28a745;
-  transition: all 0.3s ease-in-out;
-  font-weight: bold;
-}
+  padding: 10px 20px;
+  background-color: #218838;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+ }
+
 
 .btn-outline-success:hover {
-  background-color: #218838; /* Darker green on hover */
-  border-color: #1e7e34;
+  background-color: #045816; /* Darker green on hover */
   color: #ffffff; /* Ensures text remains white on hover */
 }
 

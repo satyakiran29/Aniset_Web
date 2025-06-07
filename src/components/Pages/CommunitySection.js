@@ -32,8 +32,65 @@ const CommunitySection = () => {
       tags: ["User Feedback", "5 Star", "Aniset User"],
       image: "https://play-lh.googleusercontent.com/a-/ALV-UjVsxs5270RailQPpjfZGkr57R_3HBL4ywgw0JT5Dd_hHyq2yuvd=s32-rw",
     },
+   
+    {
+      title: "Ahmed Alkhatib",
+      description:
+        "Recommend to anyone. Great set of widgets with totally original style and design. Just top notch developer. I hope this pack keeps on growing. Would buy again, nice job, man.",
+      tags: [
+        "User Feedback",
+        "5 Star",
+        "Aniset User",
+      ],
+      image: "https://ui-avatars.com/api/?name=Ahmed+Alkhatib&background=random",
+    },
+    {
+      title: "Fatema",
+      description:
+        "I'm in Love with this Kwgt & Klwp 🥹🩷 thank you so much",
+      tags: ["User Feedback", "5 Star", "Aniset User"],
+      image: "https://ui-avatars.com/api/?name=Fatema&background=random",
+    },
+    {
+      title: "Amartya Anand",
+      description:
+        "Awesome widgets especially the anya one looks cool",
+      tags: ["User Feedback", "Aniset User", "5 Star"],
+      image: "https://ui-avatars.com/api/?name=Amartya+Anand&background=random",
+    },
 
-
+    {
+      title: "Nate Westby",
+      description:
+        "Great widget and wall set. Only found 1 locked widget (I hate those). Gonna keep.",
+      tags: [
+        "User Feedback",
+        "5 Star",
+        "Aniset User"
+      ],
+      image: "https://ui-avatars.com/api/?name=Nate+Westby&background=random",
+    },
+    {
+      title: "A Koushik",
+      description:
+        "Thanks You for making anime kwgt ❤️❤️❤️",
+      tags: [
+        "User Feedback",
+        "5 Star",
+        "Aniset User"
+      ],
+      image: "https://ui-avatars.com/api/?name=A+Koushik&background=random",
+    },
+    {
+      title: "Abul Haritz",
+      description: "Good app. Nice dev.",
+      tags: [
+        "User Feedback",
+        "Aniset User",
+        "5 Star"
+      ],
+      image: "https://ui-avatars.com/api/?name=Abul+Haritz&background=random",
+    },
   ];
 
   return (

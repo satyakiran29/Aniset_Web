@@ -26,7 +26,7 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                            <a href="https://play.google.com/store/apps/details?id=aniset.kwgt" className="btn btn-primary min-w-[200px] justify-center">
+                            <a href="https://play.google.com/store/apps/details?id=com.skdev.aniset" className="btn btn-primary min-w-[200px] justify-center">
                                 <Download size={20} />
                                 Download App
                             </a>

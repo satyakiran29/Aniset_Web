@@ -13,10 +13,8 @@ export default function Footer() {
                     </div>
 
                     <div className="flex gap-6">
-                        <a href="#" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
-                            <Twitter size={20} />
-                        </a>
-                        <a href="#" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
+                     
+                        <a href="https://t.me/Anisetkwgt" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
                             <MessageCircle size={20} />
                         </a>
                         <a href="mailto:support@aniset.com" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">

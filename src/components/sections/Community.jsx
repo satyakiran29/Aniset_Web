@@ -15,7 +15,7 @@ export default function Community() {
                 <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {/* Telegram Card */}
                     <a
-                        href="https://t.me/aniset_kwgt"
+                        href="https://t.me/Anisetkwgt"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex flex-col items-center bg-[var(--card-bg)] p-8 rounded-[2rem] border border-[var(--border)] hover:border-[#0088cc] transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10"
@@ -34,7 +34,7 @@ export default function Community() {
 
                     {/* Discord Card */}
                     <a
-                        href="https://discord.gg/yourinvitecode"
+                        href="https://discord.gg/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex flex-col items-center bg-[var(--card-bg)] p-8 rounded-[2rem] border border-[var(--border)] hover:border-[#5865F2] transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-indigo-500/10"

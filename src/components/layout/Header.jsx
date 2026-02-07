@@ -48,7 +48,7 @@ export default function Header({ darkMode, toggleTheme }) {
                             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
                         </button>
 
-                        <a href="https://play.google.com/store/apps/details?id=aniset.kwgt" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                        <a href="https://play.google.com/store/apps/details?id=com.skdev.aniset" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
                             Download
                         </a>
                     </nav>

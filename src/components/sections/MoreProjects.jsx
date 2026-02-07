@@ -3,30 +3,30 @@ import { ExternalLink, Smartphone, Globe } from 'lucide-react';
 
 export default function MoreProjects() {
     const projects = [
+        // {
+        //     title: "Anime Wallpapers",
+        //     type: "App",
+        //     icon: <Smartphone size={24} />,
+        //     description: "High quality anime wallpapers for your device.",
+        //     link: "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
+        //     color: "bg-pink-500"
+        // },
         {
-            title: "Anime Wallpapers",
-            type: "App",
-            icon: <Smartphone size={24} />,
-            description: "High quality anime wallpapers for your device.",
-            link: "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
-            color: "bg-pink-500"
-        },
-        {
-            title: "Tech Blog",
+            title: "Gwalls -website",
             type: "Website",
             icon: <Globe size={24} />,
-            description: "Latest tech news, tutorials and reviews.",
-            link: "https://yourwebsite.com",
+            description: "High quality anime wallpapers for your device.",
+            link: "https://gwalls.vercel.app/",
             color: "bg-blue-500"
         },
-        {
-            title: "Icon Pack",
-            type: "App",
-            icon: <Smartphone size={24} />,
-            description: "Minimalist icon pack for Android customization.",
-            link: "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
-            color: "bg-purple-500"
-        }
+        // {
+        //     title: "Icon Pack",
+        //     type: "App",
+        //     icon: <Smartphone size={24} />,
+        //     description: "Minimalist icon pack for Android customization.",
+        //     link: "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
+        //     color: "bg-purple-500"
+        // }
     ];
 
     return (

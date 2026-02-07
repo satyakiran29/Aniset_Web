@@ -38,7 +38,7 @@ export default function Hero() {
                                 <ArrowRight size={20} />
                             </Link>
                         </div>
-
+{/* 
                         <div className="mt-8 flex items-center gap-4 justify-center md:justify-start text-sm text-[var(--text-secondary)]">
                             <div className="flex -space-x-2">
                                 {[1, 2, 3, 4].map(i => (
@@ -46,7 +46,7 @@ export default function Hero() {
                                 ))}
                             </div>
                             <p>Trusted by 10k+ users</p>
-                        </div>
+                        </div> */}
                     </motion.div>
 
                     <motion.div

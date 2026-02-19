@@ -4,14 +4,23 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const screenshots = [
-    "https://via.placeholder.com/300x600/1e1e1e/ffffff?text=Setup+1",
-    "https://via.placeholder.com/300x600/2a2a2a/ffffff?text=Setup+2",
-    "https://via.placeholder.com/300x600/333333/ffffff?text=Setup+3",
-    "https://via.placeholder.com/300x600/444444/ffffff?text=Setup+4",
-    "https://via.placeholder.com/300x600/555555/ffffff?text=Setup+5",
-    "https://via.placeholder.com/300x600/666666/ffffff?text=Setup+6",
-    "https://via.placeholder.com/300x600/777777/ffffff?text=Setup+7",
-    "https://via.placeholder.com/300x600/888888/ffffff?text=Setup+8"
+    "/screenshots/1 (1).webp",
+    "/screenshots/1 (2).webp",
+    "/screenshots/1 (3).webp",
+    "/screenshots/1 (4).webp",
+    "/screenshots/1 (5).webp",
+    "/screenshots/1 (6).webp",
+    "/screenshots/1 (7).webp",
+    "/screenshots/1 (8).webp",
+    "/screenshots/1 (9).webp",
+    "/screenshots/1 (10).webp",
+    "/screenshots/1 (11).webp",
+    "/screenshots/1 (12).webp",
+    "/screenshots/1 (13).webp",
+    "/screenshots/1 (14).webp",
+    "/screenshots/1 (15).webp",
+    "/screenshots/1 (16).webp",
+    "/screenshots/1 (17).webp"
 ];
 
 export default function ScreenshotsPage() {

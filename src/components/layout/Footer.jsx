@@ -17,7 +17,7 @@ export default function Footer() {
                         <a href="https://t.me/Anisetkwgt" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
                             <MessageCircle size={20} />
                         </a>
-                        <a href="mailto:support@aniset.com" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
+                        <a href="mailto:satyakiran296@gmail.com" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
                             <Mail size={20} />
                         </a>
                     </div>

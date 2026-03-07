@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function AnisetPro() {
     const calculateTimeLeft = () => {
-        const difference = +new Date("2026-03-19") - +new Date();
+        const difference = +new Date("2026-05-17") - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {
@@ -80,7 +80,7 @@ export default function AnisetPro() {
                     </button>
 
                     <p className="mt-8 text-sm text-[var(--text-secondary)]">
-                        Release Date: March 19, 2026
+                        Release Date: Before June
                     </p>
                 </motion.div>
             </div>

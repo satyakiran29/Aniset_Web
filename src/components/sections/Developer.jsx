@@ -53,7 +53,7 @@ export default function Developer() {
                             <a href="https://satyakiran.vercel.app/" className="p-3 rounded-full bg-[var(--bg-primary)] border border-[var(--border)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all shadow-sm hover:shadow-md group">
                                 <Globe size={20} className="group-hover:scale-110 transition-transform" />
                             </a>
-                            <a href="mailto:satyakiran299@gmail.com" className="btn btn-primary px-6 py-2 text-sm ml-2">
+                            <a href="mailto:satyakiran296@gmail.com" className="btn btn-primary px-6 py-2 text-sm ml-2">
                                 <Mail size={16} />
                                 Contact Me
                             </a>

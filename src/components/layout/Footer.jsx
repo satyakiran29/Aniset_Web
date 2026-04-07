@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MessageCircle, Twitter } from 'lucide-react';
+import { Mail, MessageCircle, Twitter, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -16,6 +16,9 @@ export default function Footer() {
                      
                         <a href="https://t.me/Anisetkwgt" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
                             <MessageCircle size={20} />
+                        </a>
+                        <a href="https://play.google.com/store/apps/dev?id=9166037782169864125" target="_blank" rel="noreferrer" title="Play Console" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
+                            <Play size={20} />
                         </a>
                         <a href="mailto:satyakiran296@gmail.com" className="p-3 rounded-full bg-[var(--bg-secondary)] hover:text-[var(--accent)] transition-colors">
                             <Mail size={20} />

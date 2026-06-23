@@ -27,17 +27,16 @@ export default function Header({ darkMode, toggleTheme }) {
         >
             <div className="container" style={{ padding: '1rem 1.5rem' }}>
                 <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
+                    <Link to="/" className="flex items-center gap-2">
                         <img src={logo} alt="Aniset KWGT Logo" className="w-10 h-10 rounded-xl" />
                         <span className="text-xl font-bold gradient-text">Aniset KWGT</span>
-                    </div>
+                    </Link>
 
                     <nav className="hidden md:flex items-center gap-8">
                         <a href="/#features" className="hover:text-[var(--accent)] transition-colors">Features</a>
                         <Link to="/gallery" className="hover:text-[var(--accent)] transition-colors">Gallery</Link>
                         <a href="#howto" className="hover:text-[var(--accent)] transition-colors">How to Apply</a>
                         <a href="#reviews" className="hover:text-[var(--accent)] transition-colors">Reviews</a>
-                        <a href="#purchase" className="hover:text-[var(--accent)] transition-colors text-red-500 font-medium">Notice</a>
                         <a href="#faq" className="hover:text-[var(--accent)] transition-colors">FAQ</a>
 
                         <button
@@ -70,7 +69,6 @@ export default function Header({ darkMode, toggleTheme }) {
                         <Link to="/gallery" onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link>
                         <a href="#howto" onClick={() => setIsMobileMenuOpen(false)}>How to Apply</a>
                         <a href="#reviews" onClick={() => setIsMobileMenuOpen(false)}>Reviews</a>
-                        <a href="#purchase" onClick={() => setIsMobileMenuOpen(false)} className="text-red-500">Notice</a>
                         <button
                             onClick={() => { toggleTheme(); setIsMobileMenuOpen(false); }}
                             className="flex items-center gap-2"

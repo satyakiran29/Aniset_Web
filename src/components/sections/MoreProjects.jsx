@@ -3,22 +3,15 @@ import { ExternalLink, Smartphone, Globe } from 'lucide-react';
 
 export default function MoreProjects() {
     const projects = [
-        // {
-        //     title: "Anime Wallpapers",
-        //     type: "App",
-        //     icon: <Smartphone size={24} />,
-        //     description: "High quality anime wallpapers for your device.",
-        //     link: "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
-        //     color: "bg-pink-500"
-        // },
         {
-            title: "Gwalls -website",
-            type: "Website",
-            icon: <Globe size={24} />,
+            title: "Anify",
+            type: "App",
+            icon: <Smartphone size={24} />,
             description: "High quality anime wallpapers for your device.",
-            link: "https://gwalls.vercel.app/",
-            color: "bg-blue-500"
+            link: "https://play.google.com/store/apps/details?id=com.skdev.anify",
+            color: "bg-pink-500"
         },
+
         // {
         //     title: "Icon Pack",
         //     type: "App",
